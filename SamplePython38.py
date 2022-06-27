@@ -39,7 +39,7 @@ class SampleListener(Leap.Listener):
                     left = hand.palm_velocity[0]
                     forward = hand.palm_velocity[2]
                     print("{:.2f}".format(-hand.palm_normal.roll))
-
+                    #testing values
 
 def main():
     # Create a sample listener and controller
