@@ -72,7 +72,7 @@ class SampleListener(Leap.Listener):
                         # forward = float("{:.2f}".format(-(hand.palm_velocity[2]) / 500))
                         right = float("{:.2f}".format(hand.palm_normal.roll))
                         forward = float("{:.2f}".format(-(hand.direction.pitch)))
-
+                        #easier hand controls
                     v = [right, up, forward]
                     #print("The velocity is: ", v)
                 if hand.is_left:
