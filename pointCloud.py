@@ -48,7 +48,6 @@ For the example to run the following hardware is needed:
  * Multiranger deck
 """
 
-# trying GIT
 import logging
 import math
 import sys
